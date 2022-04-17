@@ -4,12 +4,24 @@
     box-sizing: border-box;
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.42857143;
     color: white;
     background-color: rgb(30, 20, 70);
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 #frame {
