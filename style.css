@@ -52,15 +52,24 @@ img {
 
 #bio {
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     text-align: center;
+    font-style: italic;
+}
+
+#suggest {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(0, 105, 209);
 }
 
 .info {
     width: 740px;
     display: flex;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 20px;
     height: 50px;
     border: 1px solid white;
     border-radius: 50px;
@@ -106,4 +115,68 @@ img {
 
 #social li a .fa:hover {
     font-size: 30px;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+}
+
+.filters {
+    width: 240px;
+    background-color: #2e0a68;
+    padding: .300rem;
+    border-radius: .75rem;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+button {
+    width: 130px;
+    border: none;
+    padding: 4px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .75rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#info_button {
+    background-color: rgb(17, 17, 83);
+}
+
+#connect_button {
+    background-color: transparent;
+}
+
+#info_button:hover {
+    background-color: rgb(17, 17, 83) !important;
+}
+#connect_button:hover {
+    background-color: rgb(17, 17, 83) !important;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.hobby {
+    width: 360px;
+}
+
+.hobby i {
+    margin-left: 170px;
+    font-size: 20px;
+}
+
+.hobby ul {
+    text-align: center;
+    padding-left: 0px;
+}
+
+#film {
+    border-right: 1px solid white;
 }

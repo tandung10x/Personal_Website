@@ -18,44 +18,82 @@
   </span>
 
   <p id="name">Trần Tấn Dũng</p>
-  <p id="bio">Hope u have a good day ^^</p>
+  <p id="bio">Hope u have a nice day ^^</p>
 
-  <div class="info">
-    <div>
-      <p id="text01" >Education</p>
-    </div>
-    <div>
-      <p id="text02" >Global ICT - HUST</p>
-    </div>
+  <div class="a">
+    <ul class="filters">
+      <button id="info_button" onclick="InfoClick()">
+        Info
+      </button>
+      <button id="connect_button" onclick="ConnectClick()">
+        Connect
+      </button>
+    </ul>
   </div>
-  <div class="info">
-    <div>
-      <p id="text01" >Working</p>
+  
+  <div id="information">
+    <div class="info">
+      <div>
+        <p id="text01" >Education</p>
+      </div>
+      <div>
+        <p id="text02" >Global ICT - HUST</p>
+      </div>
     </div>
-    <div>
-      <p id="text02" >TBD</p>
+    <div class="info">
+      <div>
+        <p id="text01" >Working</p>
+      </div>
+      <div>
+        <p id="text02" >Falcon Game Studio</p>
+      </div>
     </div>
-  </div>
-  <div class="info">
-    <div>
-      <p id="text01" >Email</p>
+    <div class="info">
+      <div>
+        <p id="text01" >Email</p>
+      </div>
+      <div>
+        <p id="text02" >dung.trantan01@gmail.com</p>
+      </div>
     </div>
-    <div>
-      <p id="text02" >dung.trantan01@gmail.com</p>
-    </div>
-  </div>
-  <div class="info">
-    <div>
-      <p id="text01" >Hobby</p>
-    </div>
-    <div>
-      <p id="text02" >Football (COYG!!), Movie, Game, Books</p>
+    <div class="info">
+      <div>
+        <p id="text01" >Hobby</p>
+      </div>
+      <div>
+        <p id="text02" >Football (COYG!!), Movie, Game, Books</p>
+      </div>
     </div>
   </div>
 
-  <div id="music">
-    <iframe width="360" height="130" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/606313161&color=%231418b2&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+  <div id="connection" style="display:none;">
+    <p id="suggest">Some recent suggestions :D</p>
+    <div class="table">
+      <section id="film" class="hobby">
+        <i class="fa fa-film"></i>
+        <ul style="list-style:none;">
+          <li>Midnight in Paris (2011)</li>
+          <li>Se7en (1995)</li>
+          <li>Source Code (2011)</li>
+          <li>The Prestige (2006)</li>
+        </ul>
+      </section>
+
+      <section class="hobby">
+        <i class="fa fa-book"></i>
+        <ul style="list-style:none;">
+          <li>Da Vinci Code - Dan Brown</li>
+          <li>The Godfather - Mario Puzo</li>
+          <li>Highly Sensitive People in an Insensitive World - Ilse Sand</li>
+        </ul>
+      </section>
+    </div>
+
+    <div id="music">
+      <iframe width="360" height="130" src="https://www.youtube.com/embed/videoseries?list=PL9yTudDa1sr2-552k-1e4UR_RZZbYTyvX" title="YouTube video player" frameborder="0" ></iframe>
+    </div>
   </div>
+  
 
   <footer>
     <ul id="social">
@@ -81,4 +119,8 @@
       </li>
     </ul>
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
 </body>
+</html>
